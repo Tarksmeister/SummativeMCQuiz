@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.JLabel" name="jLabel11">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabel11"/>
+      </Properties>
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="QuestionOnelbl" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="AnswerOnelbl" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="AnswerOnetxt" min="-2" pref="59" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="QuestionTwolbl" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="AnswerTwolbl" alignment="0" min="-2" pref="398" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="AnswerTwotxt" min="-2" pref="59" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="QuestionThreelbl" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="AnswerThreelbl" alignment="0" min="-2" pref="398" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="AnswerThreetxt" min="-2" pref="59" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="AnswerFourlbl" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="AnswerFourtxt" min="-2" pref="59" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="QuestionOneResponselbl" alignment="0" min="-2" pref="398" max="-2" attributes="0"/>
+                                      <Component id="QuestionTwoResponselbl" alignment="0" min="-2" pref="398" max="-2" attributes="0"/>
+                                      <Component id="QuestionThreeResponselbl" alignment="0" min="-2" pref="398" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="QuestionFiveResponselbl" min="-2" pref="398" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                          <Component id="QuestionFivelbl" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="AnswerFivelbl" alignment="0" min="-2" pref="398" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="AnswerFivetxt" min="-2" pref="59" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="QuestionFourResponselbl" min="-2" pref="398" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                          <Component id="titlelbl" min="-2" pref="196" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="Promptlbl" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                  <Component id="Submitbtn" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="CorrectAnswerlbl" min="-2" pref="155" max="-2" attributes="0"/>
+                      <Component id="WrongAnswerlbl" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="Scorelbl" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="QuestionFourlbl" min="-2" pref="398" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="titlelbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Promptlbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="QuestionOnelbl" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="AnswerOnelbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="AnswerOnetxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="QuestionOneResponselbl" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                  <Component id="QuestionTwolbl" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="AnswerTwolbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="AnswerTwotxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="QuestionTwoResponselbl" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="QuestionThreelbl" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="AnswerThreelbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="AnswerThreetxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                  <Component id="QuestionThreeResponselbl" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="QuestionFourlbl" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="AnswerFourlbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="AnswerFourtxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="QuestionFourResponselbl" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="QuestionFivelbl" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="AnswerFivelbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="AnswerFivetxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="QuestionFiveResponselbl" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                  <Component id="CorrectAnswerlbl" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="WrongAnswerlbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Submitbtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="Scorelbl" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="titlelbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Tarkan&apos;s Quiz about The Office"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="QuestionOnelbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Question 1: In S1E1 &quot;Pilot&quot;: Who started their first day at Dunder Mifflin Scranton? "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="AnswerOnelbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" value=" A) Jim Halpert B) Ryan Howard C) Michael Scott D) Erin Hannon"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="AnswerOnetxt">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AnswerOnetxtActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="QuestionTwolbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Question 2: Who does Michael accidentally hit with his car in the parking lot? "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="AnswerTwolbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="A) Jim Halpert B) Dwight Schrute C) Stanley Hudson D) Merideth Palmer"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="AnswerTwotxt">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AnswerTwotxtActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="QuestionThreelbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Question 3: According to &quot;Prison Mike&quot;, what is the worst thing about prison?"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="AnswerThreelbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="A) The Goblins B) The Orcs C) The Math Teachers D) The Dementors"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="AnswerThreetxt">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AnswerThreetxtActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="QuestionFourlbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Question 4:  What&apos;s in the giant pot that Kevin drops all over the office floor? "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="AnswerFourlbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="A) Macaroni B) Beef Stew C) Chili D) Gravy"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="AnswerFourtxt">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AnswerFourtxtActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="QuestionFivelbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Question 5: What type of farm does Dwight own?"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="AnswerFivelbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="A) Beet B) Turnip C) Potato D) Carrot"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="AnswerFivetxt">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AnswerFivetxtActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="Submitbtn">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Submit Answer"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="SubmitbtnActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="CorrectAnswerlbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="# of Correct Answers: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="WrongAnswerlbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="# of Wrong Answers:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Scorelbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Score (%) : "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="QuestionOneResponselbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Your answer is:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="QuestionTwoResponselbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Your answer is:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="QuestionThreeResponselbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Your answer is:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="QuestionFiveResponselbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Your answer is:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="QuestionFourResponselbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Your answer is:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Promptlbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Please enter the letter of your answer in the box."/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
